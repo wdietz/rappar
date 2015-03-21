@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var fs = require("fs"),
     path = require("path"),
     elemental = require("./elemental.js"),
