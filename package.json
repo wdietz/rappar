@@ -1,0 +1,29 @@
+{
+  "name": "rappar",
+  "version": "0.0.1",
+  "description": "rappar for Raphaël",
+  "main": "rappar.js",
+  "bin": {
+    "rappar": "rappar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/spirinvladimir/rappar.git"
+  },
+  "keywords": [
+    "rappar",
+    "raphael",
+    "import",
+    "svg"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "author": {
+    "name": "Spirin Vladimir",
+    "email": "spirin.vladimir@gmail.com"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "license": "MIT"
+}

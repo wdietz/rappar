@@ -1,1 +1,8 @@
-Usage: `node rappar.js test.svg`
+npm i rappar --save
+
+package.json:
+...
+  "script": {
+    "rappar": "rappar myFile.svg > myFile.json"
+  }
+...
