@@ -540,3 +540,8 @@ if (files.length > 2) {
     var svg = fs.readFileSync(files[2], "utf-8");
     console.log(JSON.stringify(rappar(svg)));
 }
+
+module.exports = function(file){
+    var svg = fs.readFileSync(file, "utf-8");
+    return JSON.stringify(rappar(svg));
+};
