@@ -1,5 +1,5 @@
 {
-  "name": "rappar",
+  "name": "@blizzard/rappar",
   "version": "0.0.1",
   "description": "rappar for Raphaël",
   "main": "rappar.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/spirinvladimir/rappar.git"
+    "url": "git@ghosthub.corp.blizzard.net:wdietz/rappar.git"
   },
   "keywords": [
     "rappar",
@@ -25,5 +25,8 @@
   "scripts": {
     "test": ""
   },
-  "license": "MIT"
+  "engines": {
+    "node": "^0.10.31",
+    "npm": "^2.7.3"
+  }
 }
