@@ -538,9 +538,4 @@ function convertSync(file){
     return JSON.stringify(rappar(svg));
 }
 
-var files = process.argv.slice(0);
-if (files.length > 2) {
-    console.log(convertSync(files[2]));
-}
-
 module.exports = convertSync;
