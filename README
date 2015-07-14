@@ -1,8 +1,7 @@
-npm i rappar --save
+npm i $blizzard/rappar --save
 
-package.json:
-...
-  "script": {
-    "rappar": "rappar myFile.svg > myFile.json"
-  }
-...
+```
+var someSVGString = ...;
+var rappar = require('rappar');
+var data = rappar(someSVGString);
+```
